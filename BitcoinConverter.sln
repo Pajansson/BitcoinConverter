@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitcoinConverter.Android", "BitcoinConverter\BitcoinConverter.Android\BitcoinConverter.Android.csproj", "{12B74357-A410-440C-9974-2C962E41A526}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitcoinConverter", "BitcoinConverter\BitcoinConverter\BitcoinConverter.csproj", "{347A1DFC-566A-4E05-A902-C33A384447C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12B74357-A410-440C-9974-2C962E41A526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12B74357-A410-440C-9974-2C962E41A526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12B74357-A410-440C-9974-2C962E41A526}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{12B74357-A410-440C-9974-2C962E41A526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12B74357-A410-440C-9974-2C962E41A526}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12B74357-A410-440C-9974-2C962E41A526}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{347A1DFC-566A-4E05-A902-C33A384447C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{347A1DFC-566A-4E05-A902-C33A384447C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{347A1DFC-566A-4E05-A902-C33A384447C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{347A1DFC-566A-4E05-A902-C33A384447C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C419A11-48FD-4185-B1B0-00FE0001C92C}
+	EndGlobalSection
+EndGlobal
