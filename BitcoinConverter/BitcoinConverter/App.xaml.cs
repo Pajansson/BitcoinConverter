@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 using Xamarin.Forms;
 
 namespace BitcoinConverter
@@ -13,13 +15,15 @@ namespace BitcoinConverter
 		{
 			InitializeComponent();
 
-			MainPage = new BitcoinConverter.MainPage();
+			MainPage = new MainPage();
 		}
 
 		protected override void OnStart ()
 		{
-			// Handle when your app starts
-		}
+		    AppCenter.Start("android=c302b720-cf01-4272-8568-71215e73d010;" + "uwp={Your UWP App secret here};" +
+		                    "ios={Your iOS App secret here}",
+		        typeof(Analytics), typeof(Crashes));
+        }
 
 		protected override void OnSleep ()
 		{

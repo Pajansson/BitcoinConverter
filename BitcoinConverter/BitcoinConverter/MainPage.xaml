@@ -4,8 +4,16 @@
              xmlns:local="clr-namespace:BitcoinConverter"
              x:Class="BitcoinConverter.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
-
+    <StackLayout Margin="10,10,10,0">
+        <Picker Title="Select currency" x:Name="CurrencyPicker" HorizontalOptions="FillAndExpand" SelectedIndexChanged="CurrencyPicker_OnSelectedIndexChanged">
+            <Picker.Items>
+                <x:String>SEK</x:String>
+                <x:String>USD</x:String>
+                <x:String>EUR</x:String>
+                <x:String>GBP</x:String>
+            </Picker.Items>
+        </Picker>
+        <Entry x:Name="AmountEntry" Placeholder="Enter Bitcoin amount!"/>
+        <Button Text ="Convert!" Clicked="Button_OnClicked"/>
+    </StackLayout>
 </ContentPage>
